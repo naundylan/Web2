@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.min {
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header {
+    background-image: url(../images/head-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}
+.wrap {
+    border-bottom: 1px white solid;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 150px;
+}
+.hotline {
+    background-color: #49A333;
+    width: 27vw;
+    height: 40px;
+    margin: 55px auto;
+    border-radius: 5px;
+}
+.hotline > p {
+    color: white;
+    font-weight: 1000;
+    text-align: center;
+    height: 40px;
+    font-size: 16px;
+    padding: 7px 0;
+}
+.logo {
+    background-image: url(../images/logo.png);
+    background-position: center;
+}
+.logo {
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.wrap__form {
+    height: 69.45vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.form {
+    height: 350px;
+    width: 280px;
+    margin: auto auto;
+    border: 7px #CED086 solid;
+    background-color: #678B37;
+}
+.form__head {
+    color: white;
+    font-size: 24px;
+    height: 25%;
+    text-align: center;
+    padding: 12px 0;
+}
+.title {
+    height: 30px;
+    text-align: center;
+    color: white;
+    padding: 7px;
+    font-style: italic;
+}
+.form__regis {
+    height: 161px;
+    width: 100%;
+    text-align: center;
+}
+.form__regis form {
+
+}
+.form__regis input {
+    width: 80%;
+    margin: 5px 0;
+    background-color: #678B37;
+    border: none;
+    border-bottom: 1px rgba(255, 255, 255, 0.7) solid;
+    border-top: 1px rgba(0, 0, 0, 0.1) solid;
+    height: 25px;
+}
+.form__regis input::placeholder {
+    color: white;
+}
+.form__regis button {
+    margin: 3px 0 15px 0;
+    width: 50%;
+    height: 40px;
+    background-color:#C5D301;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* content */
+
+.content1, .content2 {
+    height: 270px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.header1, .header2 {
+    text-align: center;
+    color: #81AF53;
+    font-weight: bold;
+    font-size: 16px; 
+    height: 40px;
+}
+.para1, .para2 {
+    text-align: justify;
+    font-weight: bold;
+    font-size: 1.2vw;
+    height: 210px;
+}
+.pic1 {
+    background-image: url(../images/image-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic2 {
+    background-image: url(../images/image-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic1, .pic2 {
+    margin: 20px 0;
+    border-radius: 10px;
+    border: 2px lightgreen dashed;
+}
+.pic1, .pic2, .title1, .title2 {
+    margin: 10px;
+}
+
+/* information */
+
+.infor {
+    height: 200px;
+    background-color: #81AF53;
+}
+.infor__wrap {
+    height: 200px;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    padding: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.infor__title {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.infor__head {
+    height: 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border-bottom: 2px white solid;
+}
+.infor__para {
+    color: white;
+    text-align: justify;
+    font-size: 1.27vw;
+}
+.infor__img {
+    background-image: url(../images/image-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+/* footer */
+
+.footer {
+    background-color: #DCE085;
+
+}
+.footer__wrap {
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 10px;
+}
+.footer__head {
+    height: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #2A6E01;
+    padding: 10px 0;
+}
+.footer__form {
+    padding: 5px 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    box-sizing: border-box;
+}
+.block {
+    height: 30px;
+    width: 90%;
+    margin: 8px 5%;
+}
+.block > input, button {
+    height: 100%;
+    width: 100%;
+}
+.b4 > button{
+    background-color: #2A6E01;
+    color: white;
+}
